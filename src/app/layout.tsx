@@ -5,10 +5,9 @@ import "./globals.css";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import AnnouncementBar from "./components/AnnouncementBar";
-import Header from "./components/header";
+
 import Footer from "./components/footer";
-import Navbar from "./components/Navbar";
+
 config.autoAddCss = false;
 
 const geistSans = localFont({
@@ -37,9 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         {/* <AnnouncementBar/> */}
-         {/* <Header/> */}
-         {/* <Navbar/> */}
+
         {children}
         <Footer/>
 

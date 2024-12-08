@@ -29,7 +29,7 @@ const Shop = () => {
     <div className='h-[100px]'>
     <Navbar />
     </div>
-
+    
     <NavSection/>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between my-6">

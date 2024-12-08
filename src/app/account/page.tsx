@@ -40,8 +40,8 @@
 // Code for `pages/my-account.tsx`:
 import React from 'react';
 import Features from '../components/Features';
-import Footer from '../components/footer';
-import Banner from '../components/Banner';
+// import Footer from '../components/footer';
+// import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
 import Image from 'next/image';
 
@@ -51,10 +51,8 @@ import Image from 'next/image';
 const MyAccount = () => {
   return (
     <div className="bg-white min-h-screen flex flex-col justify-between">
-      {/* Header */}
       <Navbar/>
 
-      {/* Banner */}
       <div className="bg-beige h-[306px] py-24 text-center flex flex-col items-center  bg-[url('/shopbg.png')] bg-cover ">
     <Image src="/shop-logo.png" alt='logo' width={50} height={50}></Image>
       <h1 className="text-[40px] font-poppins leading-10 font-semibold">Account</h1>

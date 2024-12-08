@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 // Assuming `Footer` and `Features` components are in `components` folder
 import Features from '../components/Features';
-import Footer from '../components/footer';
+// import Footer from '../components/footer';
 import Navbar from '../components/Navbar';
 
 const Contact = () => {
