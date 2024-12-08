@@ -1,9 +1,7 @@
 import Features from '../components/Features';
-import FilterSortBar from '../components/FilterSortBar';
 import Navbar from '../components/Navbar';
 import NavSection from '../components/Banner';
 import ProductCard from '../components/ProductCard';
-import Image from 'next/image';
 
 const products = [
   { title: 'Trenton modular sofa_3', price: 'Rs. 25,000.00', imageUrl: '/product1.png' },
@@ -31,10 +29,8 @@ const Shop = () => {
     <div className='h-[100px]'>
     <Navbar />
     </div>
-    {/* yaha add karonga  */}
 
     <NavSection/>
-      <FilterSortBar/>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between my-6">
           <div className="flex gap-2">
