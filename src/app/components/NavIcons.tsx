@@ -2,18 +2,12 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import CartModel from "./CartModel";
-import MyAccount from "../account/page";
 
 const NavIcons = () => {
   const [isCartOpen, setisCartOpen] = useState(false);
 
-  const router = useRouter()
-
   
-
-
   return (
     <div className="flex items-center gap-4 xl:gap-6 relative">
       <Link href="/account">  <Image
