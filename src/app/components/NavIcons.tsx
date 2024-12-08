@@ -7,7 +7,7 @@ import CartModel from "./CartModel";
 const NavIcons = () => {
   const [isCartOpen, setisCartOpen] = useState(false);
 
-  
+
   return (
     <div className="flex items-center gap-4 xl:gap-6 relative">
       <Link href="/account">  <Image
@@ -36,7 +36,7 @@ const NavIcons = () => {
         className="bg-transparent"
         onClick={() => setisCartOpen((prev) => !prev)}
       />
-      <div className="absolute -top-4 -right-4 w-6 bg-lama rounded-full text-white text-sm flex items-center justify-center">2</div>
+      <div className="absolute -top-4 -right-4 w-6 bg-lama rounded-full text-white text-sm flex items-center justify-center"></div>
       </div>
       {isCartOpen && (<CartModel />)}
     </div>
